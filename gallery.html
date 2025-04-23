@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom Valley Nursery - Gallery</title>
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <div class="branding">
+          <div class="logo">
+            <img src="images/logo.png" alt="Bloom Valley Logo" />
+          </div>
+          <h1>Bloom Valley</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="community.html">Community</a></li>
+          </ul>
+        </nav>
+        <div class="cart-button-nav">
+          <button type="button">View Cart</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Gallery Banner -->
+    <section class="gallery-banner">
+      <img src="images/gallery-banner.png" alt="Gallery Banner" />
+    </section>
+
+    <!-- Filters and Search -->
+    <section class="filters">
+      <form>
+        <label for="category">Category Filter</label>
+        <select id="category" name="category">
+          <option value="">All Categories</option>
+          <option value="indoor">Indoor</option>
+          <option value="outdoor">Outdoor</option>
+          <option value="tools">Tools</option>
+        </select>
+
+        <label for="price">Price Filter</label>
+        <select id="price" name="price">
+          <option value="">All Prices</option>
+          <option value="low">Under $20</option>
+          <option value="mid">$20-$50</option>
+          <option value="high">Over $50</option>
+        </select>
+
+        <label for="sort">Sort By</label>
+        <select id="sort" name="sort">
+          <option value="name">Name</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+        </select>
+
+        <input type="text" placeholder="Search..." name="search" />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- Product Gallery Grid -->
+    <section class="product-gallery">
+      <article>
+        <img src="images/gallery-peace-lily-plant1.png" alt="Peace Lily" />
+        <h3>Peace Lily</h3>
+        <p>Elegant indoor plant, air purifying.</p>
+        <button class="quick-view" type="button">Quick View</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </article>
+      <article>
+        <img src="images/gallery-snake-plant-plant2.png" alt="Snake Plant" />
+        <h3>Snake Plant</h3>
+        <p>Low maintenance, perfect for offices.</p>
+        <button class="quick-view" type="button">Quick View</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </article>
+      <article>
+        <img src="images/gallery-maple-tree-plant3.png" alt="Maple Tree" />
+        <h3>Maple Tree</h3>
+        <p>Add vibrant colors to your landscape.</p>
+        <button class="quick-view" type="button">Quick View</button>
+        <button class="add-to-cart">Add to Cart</button>
+      </article>
+    </section>
+
+    <!-- Pagination -->
+    <section class="pagination">
+      <nav aria-label="Page navigation">
+        <ul>
+          <li><a href="#">Prev</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">Next</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="product-gallery-section">
+      <article>
+        <img
+          src="images/gallery-section-apple-tree-wide.png"
+          alt="Apple Tree"
+        />
+        <h3>Apple Tree</h3>
+        <p>$39.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </article>
+      <!-- Add More -->
+    </section>
+
+    <!-- Quick View Modal (hidden by default) -->
+    <div class="product-modal" style="display: none">
+      <div class="modal-content">
+        <button class="close-modal" aria-label="Close Modal">X</button>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img src="images/product-large.png" alt="Product Detail Image" />
+          </div>
+          <div class="modal-info">
+            <h3>Product Name</h3>
+            <p class="short-description">Short description of the product.</p>
+            <p class="price">$34.99</p>
+            <p class="full-description">
+              This plant is ideal for bright spaces, low maintenance, and
+              improves air quality.
+            </p>
+            <div class="modal-buttons">
+              <button class="add-to-cart">Add to Cart</button>
+              <button type="button">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <section class="newsletter">
+          <h4>Subscribe to our newsletter</h4>
+          <form>
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </section>
+        <section class="social-media">
+          <p>Follow us:</p>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
