@@ -1,192 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bloom Valley Nursery - About Us</title>
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/about.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="header-container">
-        <div class="branding">
-          <div class="logo">
-            <img src="images/logo.png" alt="Bloom Valley Logo" />
-          </div>
-          <h1>Bloom Valley</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloom Valley Nursery - About Us</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="branding">
+        <div class="logo">
+          <img src="images/logo.png" alt="Bloom Valley Logo" />
         </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="community.html">Community</a></li>
-          </ul>
-        </nav>
-        <div class="cart-button-nav">
-          <button type="button">View Cart</button>
+        <h1>Bloom Valley</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="community.html">Community</a></li>
+        </ul>
+      </nav>
+      <div class="cart-button-nav">
+        <button type="button">View Cart</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- About US Banner -->
+  <section class="about-us-banner">
+    <img src="images/about-us-banner.png" alt="About US Banner" />
+  </section>
+
+  <!-- Our Story -->
+  <section class="our-story">
+    <h2>Our Story</h2>
+    <div class="story-content">
+      <img src="images/our-story.jpg" alt="Bloom Valley history image">
+      <div class="story-text">
+        <p>Founded by a group of passionate horticulturists, Bloom Valley Nursery began as a small community greenhouse and grew into a trusted local source for garden needs.</p>
+        <p>We believe in the healing power of nature and the joy that comes with growing your own plants, flowers, and food.</p>
+        <p>Our mission is to make gardening accessible, enjoyable, and sustainable for every home in our community.</p>
+        <p>We partner with local schools and organizations to promote environmental awareness and support greener neighborhoods.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Mission & Values -->
+  <section class="our-values">
+    <h2>Our Mission & Values</h2>
+    <div class="value-cards">
+      <article>
+        <img src="images/icon-eco.png" alt="Eco icon">
+        <h3>Eco-Friendly</h3>
+        <p>We minimize waste and use sustainable methods in every step.</p>
+      </article>
+      <article>
+        <img src="images/icon-quality.png" alt="Quality icon">
+        <h3>Quality Plants</h3>
+        <p>Each plant is hand-checked for strength, growth, and resilience.</p>
+      </article>
+      <article>
+        <img src="images/icon-expert.png" alt="Expert Advice icon">
+        <h3>Expert Support</h3>
+        <p>We guide you from soil to bloom with tips that work.</p>
+      </article>
+      <article>
+        <img src="images/icon-community.png" alt="Community icon">
+        <h3>Community First</h3>
+        <p>We support local programs and care for our neighborhood.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="info-grid">
+    <div class="info-left">
+      <!-- Business Hours -->
+      <section class="business-hours">
+        <h3>Business Hours</h3>
+        <ul>
+          <li>Monday: 9 a.m. to 6 p.m.</li>
+          <li>Tuesday: 9 a.m. to 8 p.m.</li>
+          <li>Wednesday: 9 a.m. to 9 p.m.</li>
+          <li>Thursday: 9 a.m. to 6 p.m.</li>
+          <li>Friday: 9 a.m. to 9 p.m.</li>
+          <li>Saturday: 10 a.m. to 9 p.m.</li>
+          <li>Sunday: 10 a.m. to 5 p.m.</li>
+        </ul>
+      </section>
+  
+      <!-- Find Us -->
+      <section class="find-us">
+        <h3>Find Us</h3>
+        <div class="map-placeholder">
+          <p>[Map Placeholder]</p>
         </div>
-      </div>
-    </header>
+      </section>
+    </div>
+  
+    <div class="info-right">
+      <!-- Contact / Feedback Form -->
+      <section class="contact-form">
+        <h3>Contact & Custom Orders</h3>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+  
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" />
+  
+          <label for="order">Order Type:</label>
+          <input type="text" id="order" name="order" />
+  
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+  
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </section>  
 
-    <!-- About US Banner -->
-    <section class="about-us-banner">
-      <img src="images/about-us-banner.png" alt="About US Banner" />
-    </section>
+  <!-- Our Team -->
+  <section class="our-team">
+    <h2>Our Team</h2>
+    <div class="team-members">
+      <article>
+        <img src="images/person-man.png" alt="Team Member 1">
+        <h4>Lucas Kim</h4>
+        <p>Head Horticulturist</p>
+      </article>
+      <article>
+        <img src="images/person-woman.png" alt="Team Member 2">
+        <h4>Lili Wang</h4>
+        <p>Community Coordinator</p>
+      </article>
+      <article>
+        <img src="images/person-man.png" alt="Team Member 3">
+        <h4>James Smith</h4>
+        <p>Plant Care Specialist</p>
+      </article>
+      <article>
+        <img src="images/person-woman.png" alt="Team Member 4">
+        <h4>Grace Chen</h4>
+        <p>Order Manager</p>
+      </article>
+    </div>
+  </section>
 
-    <!-- Our Story -->
-    <section class="our-story">
-      <h2>Our Story</h2>
-      <div class="story-content">
-        <img src="images/our-story.jpg" alt="Bloom Valley history image" />
-        <div class="story-text">
-          <p>
-            Founded by a group of passionate horticulturists, Bloom Valley
-            Nursery began as a small community greenhouse and grew into a
-            trusted local source for garden needs.
-          </p>
-          <p>
-            We believe in the healing power of nature and the joy that comes
-            with growing your own plants, flowers, and food.
-          </p>
-          <p>
-            Our mission is to make gardening accessible, enjoyable, and
-            sustainable for every home in our community.
-          </p>
-          <p>
-            We partner with local schools and organizations to promote
-            environmental awareness and support greener neighborhoods.
-          </p>
-        </div>
-      </div>
-    </section>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <section class="newsletter">
+        <h4>Subscribe to our newsletter</h4>
+        <form>
+          <input type="email" placeholder="Your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+      <section class="social-media">
+        <p>Follow us:</p>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </section>
+    </div>
+  </footer>
 
-    <!-- Our Mission & Values -->
-    <section class="our-values">
-      <h2>Our Mission & Values</h2>
-      <div class="value-cards">
-        <article>
-          <img src="images/icon-eco.png" alt="Eco icon" />
-          <h3>Eco-Friendly</h3>
-          <p>We minimize waste and use sustainable methods in every step.</p>
-        </article>
-        <article>
-          <img src="images/icon-quality.png" alt="Quality icon" />
-          <h3>Quality Plants</h3>
-          <p>
-            Each plant is hand-checked for strength, growth, and resilience.
-          </p>
-        </article>
-        <article>
-          <img src="images/icon-expert.png" alt="Expert Advice icon" />
-          <h3>Expert Support</h3>
-          <p>We guide you from soil to bloom with tips that work.</p>
-        </article>
-        <article>
-          <img src="images/icon-community.png" alt="Community icon" />
-          <h3>Community First</h3>
-          <p>We support local programs and care for our neighborhood.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="info-grid">
-      <div class="info-left">
-        <!-- Business Hours -->
-        <section class="business-hours">
-          <h3>Business Hours</h3>
-          <ul>
-            <li>Monday: 9 a.m. to 6 p.m.</li>
-            <li>Tuesday: 9 a.m. to 8 p.m.</li>
-            <li>Wednesday: 9 a.m. to 9 p.m.</li>
-            <li>Thursday: 9 a.m. to 6 p.m.</li>
-            <li>Friday: 9 a.m. to 9 p.m.</li>
-            <li>Saturday: 10 a.m. to 9 p.m.</li>
-            <li>Sunday: 10 a.m. to 5 p.m.</li>
-          </ul>
-        </section>
-
-        <!-- Find Us -->
-        <section class="find-us">
-          <h3>Find Us</h3>
-          <div class="map-placeholder">
-            <p>[Map Placeholder]</p>
-          </div>
-        </section>
-      </div>
-
-      <div class="info-right">
-        <!-- Contact / Feedback Form -->
-        <section class="contact-form">
-          <h3>Contact & Custom Orders</h3>
-          <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" />
-
-            <label for="order">Order Type:</label>
-            <input type="text" id="order" name="order" />
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-
-            <button type="submit">Submit</button>
-          </form>
-        </section>
-      </div>
-    </section>
-
-    <!-- Our Team -->
-    <section class="our-team">
-      <h2>Our Team</h2>
-      <div class="team-members">
-        <article>
-          <img src="images/person-man.png" alt="Team Member 1" />
-          <h4>Lucas Kim</h4>
-          <p>Head Horticulturist</p>
-        </article>
-        <article>
-          <img src="images/person-woman.png" alt="Team Member 2" />
-          <h4>Lili Wang</h4>
-          <p>Community Coordinator</p>
-        </article>
-        <article>
-          <img src="images/person-man.png" alt="Team Member 3" />
-          <h4>James Smith</h4>
-          <p>Plant Care Specialist</p>
-        </article>
-        <article>
-          <img src="images/person-woman.png" alt="Team Member 4" />
-          <h4>Grace Chen</h4>
-          <p>Order Manager</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-container">
-        <section class="newsletter">
-          <h4>Subscribe to our newsletter</h4>
-          <form>
-            <input type="email" placeholder="Your email address" required />
-            <button type="submit">Subscribe</button>
-          </form>
-        </section>
-        <section class="social-media">
-          <p>Follow us:</p>
-          <a href="#" aria-label="Instagram">Instagram</a>
-          <a href="#" aria-label="Facebook">Facebook</a>
-        </section>
-      </div>
-    </footer>
-  </body>
+  <script src="scripts/subscribe.js"></script>
+  <script src="scripts/cart.js"></script>
+  <script src="scripts/contact-form.js"></script>
+  
+</body>
 </html>

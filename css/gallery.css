@@ -1,134 +1,162 @@
-h1,
-h2,
-h3,
-h4 {
-  font-family: Arial, sans-serif;
+
+h1, h2, h3, h4 {
+font-family: Arial, sans-serif;
 }
 
 .gallery-banner {
-  padding: 0;
-  margin: 0;
+padding: 0;
+margin: 0;
 }
 
 .gallery-banner img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
+display: block;
+width: 100%;
+height: auto;
+margin: 0;
+padding: 0;
 }
 
 .filters {
-  background-color: #cfe3d4;
-  padding: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
+background-color: #CFE3D4;
+padding: 1rem;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: center;
 }
 
-.filters label,
-.filters select,
-.filters input,
-.filters button {
-  font-family: Calibri, sans-serif;
-  font-size: 1rem;
+.filters label, .filters select, .filters input, .filters button {
+font-family: Calibri, sans-serif;
+font-size: 1rem;
 }
 
 .product-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  padding: 2rem;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: center;
+padding: 2rem;
 }
 
 .product-gallery article {
-  background: white;
-  padding: 1rem;
-  border-radius: 6px;
-  width: 250x;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
+background: white;
+padding: 1rem;
+border-radius: 6px;
+width: 250x;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+text-align: center;
 }
 
 .product-gallery-section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  padding: 2rem;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+justify-content: center;
+padding: 2rem;
 }
 
 .product-gallery-section article {
-  background: white;
-  padding: 1rem;
-  border-radius: 6px;
-  width: 500x;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
+background: white;
+padding: 1rem;
+border-radius: 6px;
+width: 500x;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+text-align: center;
 }
 
 .pagination {
-  text-align: center;
-  padding-bottom: 2rem;
+text-align: center;
+padding-bottom: 2rem;
 }
 
 .pagination ul {
-  list-style: none;
-  display: inline-flex;
-  gap: 0.5rem;
-  padding: 0;
+list-style: none;
+display: inline-flex;
+gap: 0.5rem;
+padding: 0;
 }
 
 .pagination a {
-  background: white;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid #014038;
-  border-radius: 4px;
-  color: #014038;
+background: white;
+padding: 0.5rem 0.75rem;
+border: 1px solid #014038;
+border-radius: 4px;
+color: #014038;
 }
 
 .product-modal {
-  position: fixed;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  max-width: 600px;
-  z-index: 1000;
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
+}
+
+.modal-content {
+background: white;
+padding: 2rem;
+border-radius: 10px;
+max-width: 600px;
+width: 90%;
+box-shadow: 15px 15px 15px 15px rgba(0.6, 0.6 0.6, 0.6);
+}
+
+.modal-image img {
+display: block;
+margin: 0 auto;
+padding: 1rem;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+max-width: 400px;
 }
 
 .quick-view {
-  background-color: #f0c064;
-  border: none;
-  padding: 0.5rem 1rem;
-  margin-bottom: 0.5rem;
-  border-radius: 4px;
-  color: #00231c;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+background-color: #F0C064;
+border: none;
+padding: 0.5rem 1rem;
+margin-bottom: 0.5rem;
+border-radius: 4px;
+color: #00231C;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.3s ease;
 }
 
 .quick-view:hover {
-  background-color: #e4a93d;
+background-color: #e4a93d;
 }
 
 .add-to-cart {
-  background-color: transparent;
-  border: 2px solid #014038;
-  color: #014038;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
+background-color: transparent;
+border: 2px solid #014038;
+color: #014038;
+padding: 0.5rem 1rem;
+border-radius: 4px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
 }
 
 .add-to-cart:hover {
-  background-color: #e2f1e6;
+background-color: #E2F1E6;
+}
+
+.close-quick-view {
+background-color: #F0C06D;
+border: 2px solid #014038;
+color: #014038;
+padding: 0.5rem 1rem;
+border-radius: 4px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.close-quick-view:hover {
+background-color: #E2F1E6;
 }

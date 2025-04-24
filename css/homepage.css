@@ -1,85 +1,84 @@
-h1,
-h3,
-h4 {
-  font-family: Arial, sans-serif;
+
+h1, h3, h4 {
+font-family: Arial, sans-serif;
 }
 
 h2 {
-  font-family: Arial, sans-serif;
-  padding: 0% 4%;
-  margin-top: 1em;
-  margin-bottom: 0em;
+font-family: Arial, sans-serif;
+padding: 0% 4%;
+margin-top: 1em;
+margin-bottom: 0em;
 }
 
 .features {
-  padding: 0% 0%;
-  background-color: #e2f1e6;
-  padding: 0 0;
+padding: 0% 0%;
+background-color: #E2F1E6;
+padding: 0 0;
 }
 
 .features-selection {
-  display: flex;
-  gap: 3%;
-  justify-content: space-around;
-  padding: 1% 4%;
-  justify-content: center;
+display: flex;
+gap: 3%;
+justify-content: space-around;
+padding: 1% 4%;
+justify-content: center;
 }
 
 .features-selection article {
-  background: white;
-  padding: 2rem;
-  border-radius: 8px;
-  flex: 1;
-  max-width: 350px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
+background: white;
+padding: 2rem;
+border-radius: 8px;
+flex: 1;
+max-width: 350px;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+text-align: center;
 }
 
 .categories {
-  padding: 0% 0%;
-  background-color: #e2f1e6;
-  padding: 0 0;
+padding: 0% 0%;
+background-color: #E2F1E6;
+padding: 0 0;
 }
 
 .category-list {
-  display: flex;
-  gap: 3%;
-  justify-content: space-around;
-  padding: 1% 4%;
-  justify-content: center;
+display: flex;
+gap: 3%;
+justify-content: space-around;
+padding: 1% 4%;
+justify-content: center;
 }
 
 .category-list article {
-  background: white;
-  padding: 2rem;
-  border-radius: 8px;
-  flex: 1;
-  max-width: 350px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
+background: white;
+padding: 2rem;
+border-radius: 8px;
+flex: 1;
+max-width: 350px;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+text-align: center;
 }
 
 .featured-products {
-  padding: 0% 0%;
-  background-color: #e2f1e6;
-  padding: 0 0;
+padding: 0% 0%;
+background-color: #E2F1E6;
+padding: 0 0;
 }
 
 .featured-products-grid {
-  display: flex;
-  gap: 3%;
-  justify-content: space-around;
-  padding: 1% 4%;
-  margin-bottom: 2%;
-  justify-content: center;
+display: flex;
+gap: 3%;
+justify-content: space-around;
+padding: 1% 4%;
+margin-bottom: 2%;
+justify-content: center;
 }
 
 .featured-products-grid article {
-  background: white;
-  padding: 2rem;
-  border-radius: 8px;
-  flex: 1;
-  max-width: 350px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
+background: white;
+padding: 2rem;
+border-radius: 8px;
+flex: 1;
+max-width: 350px;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+text-align: center;
 }

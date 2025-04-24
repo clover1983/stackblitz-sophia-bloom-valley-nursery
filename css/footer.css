@@ -1,67 +1,56 @@
 footer {
-  background-color: #014038;
-  color: white;
-  padding: 2rem 1rem;
+background-color: #014038;
+color: white;
+padding: 2rem 1rem;
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .footer-container form {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
+display: flex;
+gap: 0.5rem;
+margin-top: 0.5rem;
 }
 
-.footer-container input[type='email'] {
-  padding: 0.5rem;
-  border-radius: 4px;
-  border: none;
-  flex: 1;
+.footer-container input[type="email"] {
+padding: 0.5rem;
+border-radius: 4px;
+border: none;
+flex: 1;
 }
 
 .footer-container button {
-  background-color: #f0c064;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  color: #00231c;
-  font-weight: bold;
+background-color: #F0C064;
+border: none;
+padding: 0.5rem 1rem;
+border-radius: 4px;
+color: #00231C;
+font-weight: bold;
 }
 
 .social-media a {
-  display: inline-block;
-  margin-right: 1rem;
-  color: #f0c064;
+display: inline-block;
+margin-right: 1rem;
+color: #F0C064;
 }
 
 @media (max-width: 768px) {
-  .header-container,
-  .footer-container,
-  .product-gallery,
-  .features,
-  .category-list,
-  .product-grid,
-  .story-content,
-  .value-cards,
-  .team-members,
-  .review-grid,
-  .event-grid,
-  .partner-logos {
+.header-container, .footer-container, .product-gallery, .features, .category-list, .product-grid, .story-content, .value-cards, .team-members, .review-grid, .event-grid, .partner-logos {
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  nav ul {
+nav ul {
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .business-contact-map-wrapper {
+.business-contact-map-wrapper {
     flex-direction: column;
     align-items: center;
-  }
+}
 }
