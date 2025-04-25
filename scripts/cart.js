@@ -32,9 +32,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Clear cart
     document.querySelector("#clear-cart").addEventListener("click", () => {
-      setCart([]);
-      alert("Cart cleared.");
-      renderCartModal();
+      const currentCart = getCart();
+      if (currentCart.length === 0) {
+        alert("No items to clear!");
+      } else {
+        setCart([]);
+        alert("Cart cleared.");
+        renderCartModal();
+      }
     });
 
     document.querySelector("#process-order").addEventListener("click", () => {
