@@ -81,7 +81,7 @@ background: white;
 padding: 0.5rem 0.75rem;
 border: 1px solid #014038;
 border-radius: 4px;
-color: #014038;
+color: #00231c;
 }
 
 .product-modal {
@@ -121,7 +121,7 @@ border: none;
 padding: 0.5rem 1rem;
 margin-bottom: 0.5rem;
 border-radius: 4px;
-color: #014038;
+color: #00231c;
 font-weight: bold;
 cursor: pointer;
 transition: background-color 0.3s ease;
@@ -134,7 +134,7 @@ background-color: #F0C06D;
 .add-to-cart {
 background-color: transparent;
 border: 2px solid #014038;
-color: #014038;
+color: #00231c;
 padding: 0.5rem 1rem;
 border-radius: 4px;
 font-weight: bold;
@@ -149,7 +149,7 @@ background-color: #BDD4DA;
 .close-quick-view {
 background-color: #F0C06D;
 border: 2px solid #014038;
-color: #014038;
+color: #00231c;
 padding: 0.5rem 1rem;
 border-radius: 4px;
 font-weight: bold;

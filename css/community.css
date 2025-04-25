@@ -22,7 +22,7 @@ background-color: #F7F7F7;
 border: 2px solid #014038;
 padding: 0.5rem 1rem;
 border-radius: 4px;
-color: #014038;
+color: #00231c;
 font-weight: bold;
 cursor: pointer;
 }
@@ -52,7 +52,7 @@ background-color: #F0C06D;
 border: none;
 padding: 0.5rem 1rem;
 border-radius: 4px;
-color: #014038;
+color: #00231c;
 font-weight: bold;
 cursor: pointer;
 width: 100px;
@@ -98,7 +98,7 @@ background: white;
 padding: 0.5rem 0.75rem;
 border: 1px solid #014038;
 border-radius: 4px;
-color: #014038;
+color: #00231c;
 }
 
 .share-experience {
@@ -111,7 +111,7 @@ background-color: #F7F7F7;
 border: 2px solid #014038;
 padding: 0.75rem 1.5rem;
 border-radius: 4px;
-color: #014038;
+color: #00231c;
 font-weight: bold;
 cursor: pointer;
 }
@@ -127,7 +127,7 @@ background-color: #F7F7F7;
 border: 2px solid #014038;
 padding: 0.75rem 1.5rem;
 border-radius: 4px;
-color: #014038;
+color: #00231c;
 font-weight: bold;
 cursor: pointer;
 }

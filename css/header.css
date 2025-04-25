@@ -1,13 +1,13 @@
 body {
 margin: 0;
 font-family: Calibri, sans-serif;
-color: #014038;
+color: #00231c;
 background-color: #BDD4DA;
 }
 
 a {
 text-decoration: none;
-color: #014038;
+color: #00231C;
 }
 
 header {
@@ -52,7 +52,7 @@ margin-left: 10rem;
 
 .cart-button-nav button {
 background-color: #F7F7F7;
-color: #014038;
+color: #00231c;
 border: none;
 padding: 0.5rem 1rem;
 border-radius: 4px;
@@ -109,6 +109,6 @@ background-color: #F0C06D;
 padding: 0.75rem 1.5rem;
 margin-top: 1rem;
 border-radius: 6px;
-color: #014038;
+color: #00231C;
 font-weight: bold;
 }
