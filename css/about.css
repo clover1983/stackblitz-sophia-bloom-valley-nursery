@@ -122,8 +122,8 @@ border-radius: 4px;
 }
 
 .contact-form button {
-background-color: #F0C064;
-color: #00231C;
+background-color: #F0C06D;
+color: #014038;
 border: none;
 padding: 0.75rem;
 border-radius: 4px;
@@ -142,7 +142,7 @@ height: 280px;
 }
 
 .find-us .map-placeholder {
-background: #CFE3D4;
+background: #BDD4DA;
 padding: 2rem;
 border-radius: 6px;
 text-align: center;

@@ -17,7 +17,7 @@ padding: 0;
 }
 
 .filters {
-background-color: #CFE3D4;
+background-color: #BDD4DA;
 padding: 1rem;
 display: flex;
 flex-wrap: wrap;
@@ -116,19 +116,19 @@ max-width: 400px;
 }
 
 .quick-view {
-background-color: #F0C064;
+background-color: #F0C06D;
 border: none;
 padding: 0.5rem 1rem;
 margin-bottom: 0.5rem;
 border-radius: 4px;
-color: #00231C;
+color: #014038;
 font-weight: bold;
 cursor: pointer;
 transition: background-color 0.3s ease;
 }
 
 .quick-view:hover {
-background-color: #e4a93d;
+background-color: #F0C06D;
 }
 
 .add-to-cart {
@@ -143,7 +143,7 @@ transition: all 0.3s ease;
 }
 
 .add-to-cart:hover {
-background-color: #E2F1E6;
+background-color: #BDD4DA;
 }
 
 .close-quick-view {
@@ -158,5 +158,5 @@ transition: all 0.3s ease;
 }
 
 .close-quick-view:hover {
-background-color: #E2F1E6;
+background-color: #BDD4DA;
 }
