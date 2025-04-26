@@ -39,7 +39,7 @@ color: #F0C064;
 }
 
 @media (max-width: 768px) {
-.header-container, .footer-container, .product-gallery, .features, .category-list, .product-grid, .story-content, .value-cards, .team-members, .review-grid, .event-grid, .partner-logos {
+.header-container, .footer-container, .product-gallery, .features, .features-selection, .categories, .category-list, .featured-products, .featured-products-grid, .filters, .product-gallery, .product-gallery-section, .product-modal, .modal-content, .modal-body, .modal-image, .our-story, .story-content, .our-values, .value-cards, .info-grid, .info-left, .info-right, .business-hours, .find-us, .map-placeholder, .contact-form, .our-team, .team-members, .community-nav, .reviews-header, .reviews-header-text, .reviews-header-controls,  .review-grid, .pagination, .share-experience, .community-events, .event-grid, .partners, .partner-logos {
     flex-direction: column;
     align-items: center;
 }
