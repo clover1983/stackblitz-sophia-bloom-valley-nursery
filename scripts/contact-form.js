@@ -17,6 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
           alert("Please fill in both name and email.");
           return;
         }
+
+        // reCAPTCHA Token
+      grecaptcha.enterprise.ready(async () => {
+        const token = await grecaptcha.enterprise.execute('6Lfdc3YrAAAAAMC96FrvqlPmgyMGOjIoqaKli9wQ', {
+          action: 'custom_order'
+        });
   
         // Create object
         const orderData = {
@@ -25,18 +31,15 @@ document.addEventListener("DOMContentLoaded", function () {
           phone,
           order,
           message,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
+          recaptcha_token: token
         };
-  
-        // Save to localStorage
+
         localStorage.setItem("bloom-custom-order", JSON.stringify(orderData));
-  
-        // Alert
-        alert("Thank you for your message");
-  
-        // Reset
+        alert("Thank you for your message!");
         form.reset();
       });
-    }
-  });
+    });
+  }
+});
   
