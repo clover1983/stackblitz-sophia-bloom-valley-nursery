@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
           const token = await grecaptcha.enterprise.execute(
             '6Lfdc3YrAAAAAMC96FrvqlPmgyMGOjIoqaKli9wQ', // Your site key
-            { action: 'custom_order' }
+            { action: 'custom_contact' }
           );
           console.log("✅ reCAPTCHA token:", token); // Print token
 
